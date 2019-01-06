@@ -61,8 +61,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\MenuManager.cs" />
+    <Compile Include="Assets\Scripts\GameClearManager.cs" />
+    <Compile Include="Assets\Scripts\GameOverManager.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\StageSelectManager.cs" />
     <Compile Include="Assets\Scripts\StartSceneManager.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/ryohei/Desktop/GeekSalonUnityProjects/YokoScrollStage/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

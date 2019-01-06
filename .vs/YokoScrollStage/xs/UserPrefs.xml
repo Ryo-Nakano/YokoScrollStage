@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{DBA54A6D-F89E-7F86-59EA-DB3EEE54697E}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameClearManager.cs">
     <Files>
       <File FileName="Assets/Scripts/StartSceneManager.cs" Line="19" Column="38" />
-      <File FileName="Assets/Scripts/MenuManager.cs" Line="19" Column="50" />
-      <File FileName="Assets/Scripts/PlayerScript.cs" Line="10" Column="2" />
+      <File FileName="Assets/Scripts/PlayerScript.cs" Line="32" Column="36" />
+      <File FileName="Assets/Scripts/StageSelectManager.cs" Line="6" Column="32" />
+      <File FileName="Assets/Scripts/GameOverManager.cs" Line="19" Column="31" />
+      <File FileName="Assets/Scripts/GameClearManager.cs" Line="7" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
