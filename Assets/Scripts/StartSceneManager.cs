@@ -16,6 +16,6 @@ public class StartSceneManager : MonoBehaviour {
     //Startボタンを押した時に呼ばれる関数
 	public void StratButton()
 	{
-		SceneManager.LoadScene("Menu");//Menuシーンに移動
+		SceneManager.LoadScene("StageSelect");//Menuシーンに移動
 	}
 }
