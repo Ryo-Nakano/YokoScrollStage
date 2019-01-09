@@ -14,8 +14,8 @@ public class PlayerScript : MonoBehaviour {
 
 	[SerializeField] float speed;//Playerの移動スピード
 	[SerializeField] float jumpPower;//Playerのジャンプ力
-	float jumpCount = 0;//Jumpの回数をカウントし、制限する為の変数
 
+    float jumpCount = 0;//Jumpの回数をカウントし、制限する為の変数
 	Rigidbody rigidbody;//取得したRigidbodyを格納しておく為の変数
 
 	void Start () {
@@ -27,9 +27,7 @@ public class PlayerScript : MonoBehaviour {
 
 		if(this.transform.position.y < -6.0f)//Playerのy座標(高さ)がある一定を下回ったら
 		{
-			//GameOverの処理
-			Debug.Log("GameOver");
-			SceneManager.LoadScene("GameOver");
+			SceneManager.LoadScene("GameOver");//GameOverシーンに遷移
 		}
 	}
 
@@ -49,7 +47,7 @@ public class PlayerScript : MonoBehaviour {
         }
 
         //Jump
-		if(Input.GetKeyDown(KeyCode.Space))//spaceキー押した時
+		if(Input.GetKeyDown(KeyCode.Space))//スペースキー押した時
 		{
 			if(jumpCount < 2)
 			{
